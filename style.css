@@ -28,8 +28,12 @@ body {
   width: 100%;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 /* TYPOGRAPHY */
-h1 {
+h2 {
   font-size: 13px;
   font-weight: 700;
 }
@@ -41,10 +45,6 @@ p {
 
 .post_author_location {
   font-size: 12px;
-}
-
-.highlight_text {
-  font-weight: 700;
 }
 
 /* IMG */
@@ -63,6 +63,14 @@ p {
   display: block;
   width: 100%;
   height: auto;
+}
+
+/* BTNs */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .icons {
