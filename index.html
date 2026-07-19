@@ -15,66 +15,17 @@
   <body>
     <div class="container">
       <header>
+        <h1 class="visually-hidden">Oldagram feed</h1>
         <div class="section_container header_container">
-          <img class="logo" src="./img/logo.png" alt="Oldagram" />
+          <img class="logo" src="./images/logo.png" alt="Oldagram" />
           <img
             class="profile_photo"
-            src="./img/user-avatar.png"
+            src="./images/user-avatar.png"
             alt="Your profile photo"
           />
         </div>
       </header>
-      <main>
-        <h1 class="visually-hidden">Oldagram feed</h1>
-        <article class="post">
-          <div class="author_info_section section_container">
-            <div class="author_info_container">
-              <img
-                class="profile_photo post_author_photo"
-                src="./img/avatar-vangogh.jpg"
-                alt=""
-              />
-              <div class="post_author_info">
-                <h2 class="post_author_name">Vincent van Gogh</h2>
-                <p class="post_author_location">Zundert, Netherlands</p>
-              </div>
-            </div>
-          </div>
-          <div class="post_image_section section_container">
-            <img
-              class="post_image"
-              src="./img/post-vangogh.jpg"
-              alt="Self-portrait of Vincent van Gogh"
-            />
-          </div>
-          <div class="post_info_section section_container">
-            <div class="icons_container">
-              <button type="button" aria-label="Like post">
-                <img
-                  class="icons icon_like"
-                  src="./img/icon-heart.png"
-                  alt=""
-                />
-              </button>
-              <button type="button" aria-label="Comment on post">
-                <img
-                  class="icons icon_comment"
-                  src="./img/icon-comment.png"
-                  alt=""
-                />
-              </button>
-              <button type="button" aria-label="Share post">
-                <img class="icons icon_dm" src="./img/icon-dm.png" alt="" />
-              </button>
-            </div>
-            <p class="post_like_count"><strong>21,492 likes</strong></p>
-            <p class="post_caption">
-              <strong class="username">vincey1853</strong>
-              <span class="comment">just took a few mushrooms lol</span>
-            </p>
-          </div>
-        </article>
-      </main>
+      <main id="main"></main>
     </div>
     <script src="script.js"></script>
   </body>
