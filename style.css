@@ -67,6 +67,12 @@ p {
 
 .icons {
   width: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.icons:hover {
+  opacity: 0.4;
 }
 
 /* HEADER */
